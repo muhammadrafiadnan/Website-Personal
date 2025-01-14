@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Bangers", serif;
-    background-color: black;
-    /* background-image: url('Assets/Background.png'); */
+    background-image: url('Assets/Background.png');
     color: #fff;
     text-align: center;
   }
@@ -16,7 +15,7 @@ body {
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -25,7 +24,7 @@ body {
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 35px;
     margin: 0;
   }
   
@@ -36,15 +35,19 @@ body {
   .nav-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 400;
     transition: color 0.3s ease;
   }
   
-  .nav-links a:hover,
-  .nav-links a.active {
+  .nav-links a:hover {
     color: #ff0000;
+  }
+
+  .nav-links a.active{
     text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #ff0000;
   }
   
   .Main_Text {
@@ -52,14 +55,14 @@ body {
   }
   
   h1 {
-    font-size: 50px;
+    font-size: 90px;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
   }
   
   p {
-    font-size: 18px;
+    font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
     margin-top: 20px;
