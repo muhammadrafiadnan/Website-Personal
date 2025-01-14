@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Bangers", serif;
-    background-image: url('Assets/Background.png');
+    background-color: black;
+    /* background-image: url('Assets/Background.png'); */
     color: #fff;
     text-align: center;
   }
