@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Bangers", serif;
-    background: linear-gradient(to bottom, #000, #441414);
+    background-image: url('Assets/Background.png');
     color: #fff;
     text-align: center;
   }
